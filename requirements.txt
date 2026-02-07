@@ -3,6 +3,7 @@ pandas
 matplotlib
 seaborn
 python-dotenv
+langchain
 langchain-community
 langchain-openai
 langchain-chroma
@@ -10,3 +11,5 @@ transformers
 gradio
 jupyter
 ipywidgets
+torch
+tdqm
