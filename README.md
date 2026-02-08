@@ -1,3 +1,15 @@
+---
+title: AI Book Recommender
+emoji: 📚
+colorFrom: purple
+colorTo: blue
+sdk: gradio
+sdk_version: 4.44.0
+app_file: gradio_dashboard.py
+pinned: false
+license: mit
+---
+
 # 📚 AI Book Recommender
 
 <div align="center">
