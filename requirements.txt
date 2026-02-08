@@ -1,15 +1,8 @@
-kagglehub
 pandas
-matplotlib
-seaborn
 python-dotenv
 langchain
 langchain-community
 langchain-openai
 langchain-chroma
-transformers
-gradio
-jupyter
-ipywidgets
-torch
-tdqm
+gradio==4.44.0
+huggingface-hub>=0.20.0
