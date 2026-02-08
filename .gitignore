@@ -45,3 +45,6 @@ tagged_descriptions.text
 *.egg-info/
 dist/
 build/
+
+# Ignore binary files
+cover-not-found.jpg

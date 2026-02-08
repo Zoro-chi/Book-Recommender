@@ -13,7 +13,7 @@ import gradio as gr
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-MISSING_COVER_URL = "https://i.postimg.cc/Kcfp3D6T/cover-not-found.jpg"
+MISSING_COVER_URL = "https://via.placeholder.com/150"
 
 if not OPENAI_API_KEY:
     raise ValueError(

@@ -140,8 +140,6 @@ Book-recommender/
 ├── tagged_descriptions.text     # Book descriptions for embeddings
 │
 ├── chroma_db/                   # Persistent vector database (auto-generated)
-├── cover-not-found.jpg          # Placeholder for missing covers
-│
 └── .env                         # Environment variables (not tracked)
 ```
 
