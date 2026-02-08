@@ -13,6 +13,7 @@ import gradio as gr
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+MISSING_COVER_URL = "https://i.postimg.cc/Kcfp3D6T/cover-not-found.jpg"
 
 if not OPENAI_API_KEY:
     raise ValueError(
@@ -28,7 +29,7 @@ books["large_thumbnail"] = books["thumbnail"] + "&fife=w800"
 
 books["large_thumbnail"] = np.where(
     books["large_thumbnail"].isna(),
-    "cover-not-found.jpg",
+    MISSING_COVER_URL,
     books["large_thumbnail"],
 )
 
