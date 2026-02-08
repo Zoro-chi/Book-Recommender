@@ -4,4 +4,4 @@ langchain
 langchain-community
 langchain-openai
 langchain-chroma
-huggingface-hub==0.24.7
+streamlit

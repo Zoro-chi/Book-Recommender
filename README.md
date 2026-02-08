@@ -3,10 +3,10 @@ title: AI Book Recommender
 emoji: 📚
 colorFrom: purple
 colorTo: blue
-sdk: gradio
-sdk_version: 4.44.1
+sdk: streamlit
+sdk_version: 1.40.2
 python_version: 3.11
-app_file: gradio_dashboard.py
+app_file: streamlit_dashboard.py
 pinned: false
 license: mit
 ---
@@ -17,7 +17,7 @@ license: mit
 
 ![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Gradio](https://img.shields.io/badge/Gradio-UI-orange.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-orange.svg)
 ![OpenAI](https://img.shields.io/badge/OpenAI-Embeddings-purple.svg)
 
 _Discover your next favorite book with AI-powered recommendations based on semantic search and emotional tone analysis_
