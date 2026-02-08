@@ -1,1 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
 .env
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python cache files
+*.cache
+
+# Hugging Face Spaces cache
+hf_cache/
+huggingface/
+
+# Vector database
+chroma_db/
+
+# Generated files
+books_final.csv
+tagged_descriptions.text
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Python packaging files
+*.egg-info/
+dist/
+build/
