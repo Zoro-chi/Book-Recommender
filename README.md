@@ -3,10 +3,7 @@ title: AI Book Recommender
 emoji: 📚
 colorFrom: purple
 colorTo: blue
-sdk: streamlit
-sdk_version: 1.40.2
-python_version: 3.11
-app_file: streamlit_dashboard.py
+sdk: docker
 pinned: false
 license: mit
 ---
