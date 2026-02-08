@@ -12,6 +12,16 @@ import gradio as gr
 
 load_dotenv()
 
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+if not OPENAI_API_KEY:
+    raise ValueError(
+        "OPENAI_API_KEY not found. Please set it in .env file or HF Space secrets."
+    )
+
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+
+
 books = pd.read_csv("books_final.csv")
 
 books["large_thumbnail"] = books["thumbnail"] + "&fife=w800"
