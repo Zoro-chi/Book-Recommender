@@ -5,4 +5,4 @@ langchain-community
 langchain-openai
 langchain-chroma
 gradio==4.44.0
-huggingface-hub>=0.20.0
+huggingface-hub==0.24.7
