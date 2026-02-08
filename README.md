@@ -19,6 +19,8 @@ license: mit
 
 _Discover your next favorite book with AI-powered recommendations based on semantic search and emotional tone analysis_
 
+**[🚀 Try the Live App](https://huggingface.co/spaces/Zoro-chi/Book-Recommender)**
+
 [Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Technologies](#-technologies) • [Project Structure](#-project-structure)
 
 </div>
