@@ -13,7 +13,7 @@ import streamlit as st
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-MISSING_COVER_URL = "https://via.placeholder.com/150x200?text=No+Cover"
+MISSING_COVER_URL = "https://i.postimg.cc/Kcfp3D6T/cover-not-found.jpg"
 
 if not OPENAI_API_KEY:
     raise ValueError(
@@ -245,13 +245,8 @@ if search_button and query:
                     else:
                         authors_string = row["authors"]
 
-                    # Display book card with error handling
-                    try:
-                        image_url = row["large_thumbnail"] if pd.notna(row["large_thumbnail"]) else MISSING_COVER_URL
-                        st.image(image_url, use_container_width=True)
-                    except:
-                        st.image(MISSING_COVER_URL, use_container_width=True)
-                    
+                    # Display book card
+                    st.image(row["large_thumbnail"], use_container_width=True)
                     st.markdown(f"**{row['title']}**")
                     st.caption(f"by {authors_string}")
                     with st.expander("Read more"):
